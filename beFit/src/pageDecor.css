@@ -2,12 +2,146 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: "Poppins";
 }
 
 .content-main-page{
   height: 100vh;
   width: 100vw;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: row;
-  background-color: #ced6fe;
+  background-color: #eff0f4;
+}
+
+/* HOME PAGE */
+
+.home-content-container{
+  height: 96%;
+  width: 82vw;
+  font-family: "Poppins";
+  margin-right: 1.5vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #e6e6e6;
+}
+
+.welcome-msg h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.progress-wrapper{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.progress-value{
+  width: 20vw;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.progress-value p{
+  font-size: 14px;
+  font-weight: 560;
+}
+.progress-value span{
+  color: #30d302;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.motivate-msg{
+  width: 26vw;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.motivate-msg p{
+  font-size: 14px;
+  font-weight: 560;
+}
+
+/* DASHBOARD PAGE */
+
+.dashboard-content-container{
+  height: 96%;
+  width: 82vw;
+  margin-right: 1.5vw;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.progress-LineChart{
+  height: 45vh;
+  width: 60%;
+  background-color: red;
+}
+
+.physicalActivity-wrapper{
+  height: 45vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* background-color: blue; */
+}
+.physical-left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* background-color: green; */
+}
+.physical-InfoContainer{
+  height: 16vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid #bdbdbd;
+  box-shadow: 1px 1px 10px #e3e3e3;
+}
+.physical-InfoContainer h4{
+  font-size: 16px;
+  font-weight: 560;
+}
+.physical-InfoContainer h1{
+  color: blue;
+  font-size: 32px;
+  font-weight: 600;
+}
+.physical-InfoContainer span{
+  font-size: 10px;
+  font-weight: 520;
+  color: #333;
+}
+
+.physical-right{
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+  padding-top: 25px;
+  border-radius: 10px;
+  /* border: 2px solid #bdbdbd; */
+  /* background-color: black; */
+}
+.physical-right h2{
+  color: #777;
+  font-size: 20px;
+  font-weight: 560;
 }
