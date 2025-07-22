@@ -5,7 +5,9 @@ const Notification = () => {
   return (
     <div className='content-main-page'>
       <Sidenavbar />
-      <h1>Notification Page.</h1>
+      <div className='notification-content-container'>
+        <h5>Notification</h5>
+      </div>
     </div>
   )
 }

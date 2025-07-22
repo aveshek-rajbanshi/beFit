@@ -3,7 +3,7 @@ import {Chart as ChartJS , LineElement,CategoryScale,LinearScale,PointElement,To
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Tooltip, Legend, Title);
 import {Line} from 'react-chartjs-2'
 import Sidenavbar from './Sidenavbar'
-import chartData from '../chartData/walkdata'
+import chartData from '../DataContainer/walkdata'
 
 const Dashboard = () => {
   return (
@@ -63,8 +63,16 @@ const Dashboard = () => {
             <h4>Task Status</h4>
             <h1>6/8<span></span></h1>
           </div>
-          <div className='physical-InfoContainer'></div>
-          <div className='physical-InfoContainer'></div>
+          <div className='physical-InfoContainer'>
+            <h4>Water Level</h4>
+            <h1>40 %<span></span></h1>
+
+          </div>
+          <div className='physical-InfoContainer'>
+            <h4>Today</h4>
+            <h1>16 July<span>Sat</span></h1>
+
+          </div>
         </div>
         <div className='physical-right'>
           <h2>Activities Summery:</h2>

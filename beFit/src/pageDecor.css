@@ -264,3 +264,69 @@
 .mygoal-content:nth-child(3){
   background-color:#fcffcc ;
 }
+
+/* NOTIFICATION PAGE */
+
+.notification-content-container{
+  position: relative;
+  height: 96%;
+  width: 82vw;
+  margin-right: 1.5vw;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.notification-content-container h5{
+  font-size: 14px;
+  font-weight: 560;
+  color: #666;
+}
+
+/* SETTING PAGE */
+
+.setting-content-container{
+  position: relative;
+  height: 96%;
+  width: 82vw;
+  margin-right: 1.5vw;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.setting-menu-wrapper{
+  height: 100%;
+  width: 30%;
+  padding: 5px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: "flex-start";
+}
+
+.setting-content-container ul li{
+  cursor: pointer;
+  list-style: none;
+  margin-bottom: 8px;
+  padding: 10px 8px;
+  display: flex;
+  justify-content: "flex-start";
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.setting-menu-wrapper ul li span{
+  color: #333;
+  font-size: 16px;
+  font-weight: 520;
+}
+.setting-icon{
+  color: #222;
+  font-size: 20px;
+  font-weight: 560;
+  margin-right: 16px;
+}
