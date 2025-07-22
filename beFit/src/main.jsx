@@ -8,8 +8,7 @@ import Home from './components/Home.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import MyGoal from './components/MyGoal.jsx'
 import Schedule from './components/Schedule.jsx'
-import Achivement from './components/Achivement.jsx'
-import Statistical from './components/Statistical.jsx'
+import Notification from './components/Notification.jsx'
 import Content from './components/Content.jsx'
 import Setting from './components/Setting.jsx'
 
@@ -35,12 +34,8 @@ const router = createBrowserRouter([
     element: <Schedule />, 
    },
    {
-    path: '/achivement',
-    element: <Achivement />, 
-   },
-   {
-    path: '/statistical',
-    element: <Statistical />,
+    path: '/notification',
+    element: <Notification />,
    },
    {
     path: '/content',

@@ -84,7 +84,7 @@
 .progress-LineChart{
   height: 45vh;
   width: 60%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .physicalActivity-wrapper{
@@ -144,4 +144,123 @@
   color: #777;
   font-size: 20px;
   font-weight: 560;
+}
+
+/* SCHEDULE PAGE */
+
+.schedule-content-container{
+  position: relative;
+  height: 96%;
+  width: 82vw;
+  margin-right: 1.5vw;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.schedule-btnWrapper{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.plus-icon{
+  color: #111;
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: 540;
+}
+.addBtn{
+  width: 13vw;
+  font-size: 14px;
+  font-weight: 520;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #05ea05;
+  color: #111;
+}
+
+/* MY GOAL PAGE */
+
+.mygoal-content-container{
+  position: relative;
+  height: 96%;
+  width: 82vw;
+  margin-right: 1.5vw;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.mygoal-btnWrapper{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.addGoalBtn{
+  width: 11vw;
+}
+
+.mygoal-pushdata{
+  padding: 10px 20px;
+  padding-top: 70px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.mygoal-content{
+  width: 28vw;
+  padding: 6px 16px;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.mygoal-content:nth-child(1){
+  background-color: #ccd0ff;
+}
+.mygoal-content h5{
+  font-size: 16px;
+  font-weight: 580;
+}
+.mygoal-progressBar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+.progressbar-Eighty{
+  height: 10px;
+  width: 80%;
+  border-radius: 14px;
+  background-color: blueviolet;
+}
+.progressbar-data{
+  font-size: 20px;
+  font-weight: 580;
+}
+.progressbar-Sixty{
+  height: 10px;
+  width: 60%;
+  border-radius: 14px;
+  background-color: #e22b49;
+}
+.mygoal-content:nth-child(2){
+  background-color:#ffccd8 ;
+}
+.progressbar-Fourty{
+  height: 10px;
+  width: 40%;
+  border-radius: 14px;
+  background-color: #e1cf0a;
+}
+.mygoal-content:nth-child(3){
+  background-color:#fcffcc ;
 }

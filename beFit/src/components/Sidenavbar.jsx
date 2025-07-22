@@ -15,8 +15,7 @@ const Sidenavbar = () => {
             <li><Link to="/dashboard">Dashboard</Link></li>
             <li><Link to="/mygoal">My Goal</Link></li>
             <li><Link to="/schedule">Schedule</Link></li>
-            <li><Link to="/achivement">Achivement</Link></li>
-            <li><Link to="/statistical">Statistical</Link></li>
+            <li><Link to="/notification">Notification</Link></li>
             <li><Link to="/content">Exercise</Link></li>
             <li><Link to="/setting">Setting</Link></li>
            </ul>
